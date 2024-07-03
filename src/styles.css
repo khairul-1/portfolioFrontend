@@ -1,0 +1,17 @@
+.animatedDiv {
+  /* Set your desired styles and dimensions for the div */
+  width: 1240px;
+  height: 100px;
+  background-color: blue;
+}
+
+.animated {
+  /* Add the desired animation class from animate.css */
+  animation-duration: 2s;
+  animation-name: bounce;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
